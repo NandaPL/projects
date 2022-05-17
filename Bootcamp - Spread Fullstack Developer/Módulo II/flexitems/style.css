@@ -1,12 +1,13 @@
 /* Flex grow */
 .flex-container {
   display: flex;
-  border: 2px solid black;
+  border: 1px solid black;
   max-width: 350px;
+  margin-bottom: 10px;
 }
 
 .item {
-  background-color: cadetblue;
+  background-color: purple;
   margin: 5px;
   /*padding: 10px;*/
   text-align: center;
@@ -62,4 +63,73 @@
 .fs-3 {
   flex-shrink: 3;
   flex-basis: 200px;
+}
+
+/* Flex */
+.flex-1 {
+  /* grow = 1, shrink = 1, basis = 0*/
+  flex: 1;
+}
+
+.flex-2 {
+  /* grow = 2, shrink = 1, basis = 0 */
+  flex: 2;
+  /* basis = 0 -> ignora a largura quando usado juntamente de um grow e shrink */
+
+  /* caso haja uma largura minima ele se força a atender o tamanho minimo definido */
+}
+
+.largura {
+  width: 200px;
+  /*min-width: 250px;*/
+}
+
+/* Order (padrão é '0') */
+.o1 {
+  order: 1;
+}
+
+.o2 {
+  order: 2;
+}
+
+.o3 {
+  order: 3;
+}
+
+.o4 {
+  order: 4;
+}
+
+.direction{
+  flex-direction: column;
+}
+
+/* Align self */
+.center {
+  align-self: center;
+}
+
+.start {
+  align-self: flex-start;
+}
+
+.end {
+  align-self: flex-end;
+}
+
+.baseline {
+  align-self: baseline;
+}
+
+.stretch {
+  align-self: stretch;
+}
+
+.auto {
+  align-self: auto;
+}
+
+.align-container {
+  align-items: center;
 }

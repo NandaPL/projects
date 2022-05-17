@@ -1,0 +1,221 @@
+# Internet
+  1969 - Arpanet: criada para comunicação entre laboratórios (rede que ligava os laboratórios; criada peçp Departamento de Defesa do USA);
+  1982 - Chega a universidades;
+  1987 - Liberado uso comercial USA;
+  1992 - CERN cria a World Wide Web (acessivel para qualquer pessoa com acesso a internet);
+
+## Brasil
+    1988 - Universidades: FAPESP, UFRJ, LNCC;
+    1994 - Uso comercial (EMBRATEL - internet discada);
+    2000 - Banda larga;
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# Termos
+  Banda larga -> tipo de conexão;
+
+  Crack -> formas de "piratear" software;
+
+  Host -> especie de servidor;
+
+  Imagem (gif/png/jpg) -> formatos de Imagem (gif/png = aceitam transparencia e jpg = achata imagens, fotos menores);
+
+  HTTP -> protocolo;
+
+  Link -> ligação para algum ponto (ex: ao pegar a URL de um meet e envia-la por whatsapp, o aplicativo cria um link que vai ligar à chamada de meet);
+
+  URL -> endereço de algo na internet;
+
+  Spam -> arquivos massivos que são enviados com objetivo de alcançar o maior número de pessoas possível sem um padrão ou parâmetro;
+
+  Keylogger -> software malicioso que captura tudo o que está sendo digitado no teclado;
+
+  Cookies -> registros de atividades que podem ser usados por outros sites, rastro deixado e capturado por outros sites (para recomendações muitas vezes) com base nas suas atividades de pesquisa e acessos na internet;
+
+  Firewall -> impede acesso indevido ao computador;
+
+  Hacker -> pessoa que encontra falhas e/ou vulnerabilidades em sistemas, servidores, softwares;
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# Redes
+  Backbone -> espinha dorsal, que gerenciam as conexões e o trafego na internet (suas conexões interligam outras redes, outros backbones);
+
+  Provedor de acesso -> empresas telefônicas, repassam sinais ao usuário final (proveem serviços);
+
+  Provedor de serviço:
+    Dial-up -> conexão discada;
+    ADSL -> banda larga;
+    Fibra ótica;
+    Rádio -> torres de rádio;
+    Satélite;
+    Móvelo;
+    P2P (peer to peer) -> comunicação direta etre 2 dispositivos, sem usar internet;
+
+  DNS -> tranforma o URL do site em um número, um protocolo de internet (IP), para que o computador entenda;
+
+  TCP/IP
+    - Protocolos de comunicação entre computadores em rede. 
+
+    - TCP (protocolo de Controle de Tranmissão) e IP (Protocolo de Internet).
+
+    - 4 camadas: Física (por onde a conexão chega ao dispositivo.ex.: placa de rede), Rede (ex.: IP), Transporte (ex.: TCP, UDP), Aplicação (ex.: SMTP, HTTP, FTP).
+      * UDP = rápido, não confiável (informação pode se perder), não sabe se quem recebe e se estão ou não recebendo os pacotes;
+      * TCP = voltado a conexão, handshaker (confirmação de comunicação entre dispositivos, se os pacotes foram recebidos ou não, quem está mandando e quem está enviando, etc.), integridade, ordem dos dados;
+
+  Portas -> Por onde os dados saem e chegam:
+    20: FTP;
+    22: SSH;
+    25: SMTP;
+    53: DNS;
+    80: HTTP;
+    443: HTTPS;
+  
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# Roteadores, Switches e Modens
+  Modens -> modulater-demodulator; converte dados em um formato que possa ser transmitido de um computador para outro e lido por outro;
+
+  Roteadores -> distribui Internet entre 1 ou + dispositivos em uma rede; pode fazer a comunicação entre redes;
+
+  Switches -> distribui Internet entre 1 ou + dispositivos em uma rede; transmiti somente para quem pediu tal informação (diferente dos roteadores);
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# Celular, Internet e outros dispositivos
+  Dados móveis:
+    SMS -> celular troca, naturalmente, algun bits com as torres de comunicação;
+
+    MMS -> transmissão de mensagens multimídia através de conexão de dados primitiva;
+
+    Conexões móveis:
+      1G = 10Kbps;
+      2G = 97kbps;
+      2,5G = GPRS (general packet radio service);
+      32-80kbps = dados + voz;
+      EDGE = enhanced data rates for GSM evolution (2,75G = 128-236 kbps);
+      3G = 7 mbps;
+      4G = 22,1 mbps;
+      5G = 10 gbps;
+  
+  Wi-Fi:
+    Segurança:
+      WEP = chaves de 64 bits e de 128 bits (senha da rede wifi);
+      WPA = chave trocada periodicamente;
+      WPA2 = (AES) (802.11i) {+ segurança e requer + processamento};
+
+  Bluetooth:
+    Conexão ponto-a-ponto;
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# Browser, sites, aplicativos e webserver
+  Browser -> identifica várias LPs, linguagens de marcação (HTML) e contéudo multimedia / usam plug-ins ou add-ons que ajudam na navegação;
+
+  Página estática X Página dinâmica:
+    Estática -> sem interação, quase sem interação com o usuário;
+
+    Dinâmica -> com mais interatividade com o usuário, permite que conforme o usuário interaja de alguma forma com os elementos, as partes independentes do site há algum evento e/ou é possível realizar alguma ação;
+  
+  Sites, aplicativos e e-commerce:
+    Site:
+      página da internet;
+      diversos propósitos;
+      podem ser feitas em diversas LPs (ps.: HTML caindo em desuso...);
+
+    Aplicativo:
+      software executado no navegador;
+      hoje em dia = sem muita diferença entre aplicativo e site (site em declínio);
+      terminologia = diferença entre aplicato e programa/software está sumindo;
+
+    E-commerce: 
+      comércio eletrônico;
+      site de compra e venda com sistemas de pagamento (esses podem ser exterior a eles, aos e-commerces);
+    
+    Webserver:
+      onde estão guardadas nossas informações, nossos dados (servidor associado a sites e aplicativos);
+
+      Estático X Dinâmico:
+        Estático -> servidor fisíco onde são armazenados arquivos, softwares e/ou banco de dados;
+
+        Dinâmico -> softwares que estão presentes no servidor fisíco:
+          armazenamento de arquivos = file server;
+          armazenamento de aplicações = application server;
+          banco de dados = database;
+          ou... tudo junto e misturado;
+
+        site ou aplicativo hospedado em servidor para ser acessado, assim como daods e o banco de dados;
+      
+      interface disponível para consultas em bancos de dados inacessíveis;
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# Stacks
+  Ambiente tecnologico com ferramentas e capacidades disponíveis para desenvolvimento, para fazer o que for possível;
+
+  Pilhas de tecnologia = conjunto de softwares necessários e suficientes para executar um aplicativo/programa;
+
+  LPs;
+
+  Ambientes (desenvolvimento, teste e produção) e ferramentas de interação com app/sw;
+
+  Capacidade e limitação  de performance (pontos fracos e fortes do app/sw);
+
+  Importante para saber as limitações e capacidades das ferramentas e ambientes disponíveis (BDs, LPs, sistemas, protocolos de comunicação, etc.);
+
+  **Estratégia de negócio**, planos de mitigação de riscos, uso de dados, etc.;
+
+/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/
+
+# LPs e Termos
+  Principais LPs:
+    HTML;
+
+    CSS;
+
+    JS;
+
+    PHP;
+
+    .NET;
+
+    ASP;
+
+    JAVA;
+
+    Ruby (on rails);
+
+    Python 💙;
+
+    Perl;
+
+    C/C++/C#;
+
+  Termos comuns:
+    ERROR 404;
+
+    algoritmo -> sequência de passos para execução de tarefas;
+
+    alt -> texto alternativo;
+
+    API -> funcionalidade a mais para execução de outras funções;
+
+    dll -> conjunto de ferramentas;
+
+    bootstrap -> framework JS;
+
+    breakpoints -> ou são os pontos chaves de uma tela levando em consideração os mais diveros tipos de dispositivos, ou são os pontos de parada do debug;
+
+    debug -> processo de tentar descobrir um problema, verificação de falha;
+
+    deploy -> pacotes de publicação de aplicação;
+
+    DPI -> proporção de pontos na tela;
+
+    FTP -> protocolo de comunicação para troca de arquivos;
+
+    meta tags -> tags HTML no header;
+
+    MVC -> arquitetura com model, view e controler separados;
+
+    MVP -> minimo produto viavel;

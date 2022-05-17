@@ -1,0 +1,101 @@
+.flex {
+  max-width: 300px;
+  padding: 10px;
+  border: 2px solid black;
+  /*display: flex -> modifica o comportamento e cada item dentro do container passa a ocupar o max do seu contéudo, abriga-se dentro desse container respeitando a orientação em linha. */
+  display: flex;
+}
+
+.item {
+  background-color: aqua;
+  margin: 5px;
+}
+
+.flex-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.flex-item {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.row-reverse li{
+  flex-direction: row-reverse;
+  background-color: blue;
+}
+
+.column {
+  float: left;
+  flex-direction: column;
+}
+
+.column li{
+  background-color: green;
+}
+
+.column-reverse {
+  float: right;
+  flex-direction: column-reverse;
+}
+
+.column-reverse li{
+  background-color: red;
+}
+
+.flex-cont {
+  display: flex;
+  height: 150px;
+  border: 2px solid black;
+  max-width: 300px;
+  flex-direction: row;
+}
+
+.item-cont {
+  font-size: 24px;
+  height: 50%;
+  text-align: center;
+  min-width: 100px;
+  line-height: 50px;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.blue {
+  background-color: cadetblue;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.orange {
+  background-color: orange;
+}

@@ -24,6 +24,8 @@ div img {
   max-width: 990px;
   margin: auto;
   width: 100%;
+  min-width: 320px;
+  padding: 10px 15px;
 }
 
 header {
@@ -73,7 +75,6 @@ header nav .menu-items li a:hover {
 
 .apresentation .text-apresentation {
   min-height: 200px;
-  width: 100%;
 }
 
 .text-apresentation h1 {
@@ -210,7 +211,7 @@ header nav .menu-items li a:hover {
 
 .item-plan {
   flex: 1;
-  border: 6px solid #42008d;
+  border: 5px solid #42008d;
   margin-right: 20px;
   max-width: 240px;
 }
@@ -231,7 +232,6 @@ header nav .menu-items li a:hover {
   width: 100%;
   height: 3px;
   margin-top: 20px;
-  margin-bottom: 10px;
 }
 
 .item-plan .button {
@@ -279,5 +279,44 @@ footer .footer {
 @media (max-width: 992px) {
   .flex-container {
     flex-direction: column;
+  }
+
+  .apresentation {
+    flex-direction: column-reverse;
+  }
+
+  .apresentation .text-apresentation {
+    width: 100%;
+  }
+
+  #quem-somos {
+    flex-direction: column-reverse;
+  }
+
+  #quem-somos img {
+    min-width: 320px;
+    margin: auto;
+  }
+
+  .services-list {
+    flex-direction: column;
+  }
+
+  .item-service img {
+    width: 50%;
+    margin: auto;
+  }
+
+  .plans-list {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .plans-list .item-plan {
+    max-width: 90%;
+    margin-left: auto;
+    width: 100%;
+    margin-bottom: 20px;
   }
 }

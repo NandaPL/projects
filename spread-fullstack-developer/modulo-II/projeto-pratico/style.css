@@ -17,11 +17,11 @@ body {
   justify-content: center;
 }
 
-main .main-area {
+.main-area {
   display: flex;
-  justify-content: start; /* espaçamento começando da esquerda para direita */
   align-items: center;
-  width: 100%;
+  justify-content: start; /* espaçamento começando da esquerda para direita */
+  width: 60%;
   height: 100vh;
 }
 
@@ -33,15 +33,15 @@ main .main-area {
 }
 
 .phone-area img {
-  height: 70rem;
+  height: 60rem;
 }
 
-main .login-area {
+.login-area {
   display: flex;
   align-items: center; /* horizontal */
   justify-content: space-around; /* vertical */
   flex-direction: column;
-  width: 35%;
+  width: 50%;
   min-height: 34rem;
 }
 
@@ -51,7 +51,7 @@ main .login-area {
   align-items: center;
   flex-direction: column;
   background-color: white;
-  width: 100%;
+  width: 75%;
   padding: 1.3rem 0;
   border: 1px solid lightgray;
 }
@@ -62,17 +62,16 @@ main .login-area {
 }
 
 .app-logo {
-  height: 5rem;
-  margin-top: 40px;
+  height: 3rem;
+  margin: 1rem 0;
 }
 
 .profile-photo {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
   overflow: hidden;
-  margin-top: 25px;
 }
 
 .profile-photo img {
@@ -80,10 +79,9 @@ main .login-area {
 }
 
 .button {
-  height: 34px;
-  width: 245px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  height: 32px;
+  width: 230px;
+  margin: 1.5rem 0;
   display: block;
   align-items: center;
   border-radius: 5px;
@@ -95,20 +93,23 @@ main .login-area {
 }
 
 .change-profile {
-  margin-bottom: 8px;
+  margin-bottom: 0.75rem;
 }
 
 .change-profile p {
-  font-size: 15px;
+  color: rgb(160, 160, 160);
 }
 
 .button-chose {
   color: #1fbeef;
-  font-size: 15px;
 }
 
 .login-area #create-account {
-  margin-top: 25px;
+  margin-top: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
 }
 
 .get-app {
@@ -116,11 +117,57 @@ main .login-area {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
+  padding: 1.3rem 0;
 }
 
-.get-app .download {
+.download {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly; /* elementos com mesmo espaço dos lados e no meio */
   align-items: center;
-  flex-direction: row;
+  width: 100%;
+  padding: 1rem;
+}
+
+.app-download {
+  height: 4rem;
+  width: 13.5rem;
+  background-size: cover;
+}
+
+.app-download:nth-child(1) {
+  background-image: url('./images/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+  background-image: url('./images/googleplay-button.png');
+}
+
+/* responsividade */
+@media (max-width: 1024px) {
+  .main-area {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: white;
+  }
+
+  .main-area {
+    width: 90%;
+  }
+
+  .phone-area {
+    display: none;
+  }
+
+  .login-area {
+    width: 100%;
+  }
+
+  .group-container {
+    border: transparent;
+  }
 }

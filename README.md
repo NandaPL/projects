@@ -1,3 +1,3 @@
-# Repositório de Projetos DIO
+# Repositório de Projetos
 
-Repositório criado para o primeiro Desafio de Projeto da DIO. Aqui estão anotações e projetos desenvolvidos nos cursos e bootcamps oferecidos pela DIO aos quais participei.
+Repositório criado para projetos de estudo. Aqui estão projetos desenvolvidos em cursos que participei a fim de explorar novas tecnologias.
